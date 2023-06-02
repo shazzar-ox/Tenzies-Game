@@ -87,7 +87,7 @@ const data = random.map((each)=> <Dice key={each.id} idNoter={()=>holdDice(each.
 const rollDice= ()=>{
   
 setScoreCounter(prev=> prev+1)
-console.log(scoreCounter)
+// console.log(scoreCounter)
   if(tenzies)
   {
    
@@ -139,8 +139,8 @@ useEffect(()=>{
     return (
         <main> { tenzies && <Confetti/>}
         
-           <h1 className="title">Tenzies</h1>
-           <h3>TIMER: {count} Sec </h3>
+           <h1 className="title">TENZIES GAME</h1>
+           <h3 className="timer">TIMER: {count}s </h3>
         <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
             <div className="dice-container">
               {data}

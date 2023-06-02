@@ -10,8 +10,8 @@ body {
 }
 
 main {
-  background-color: #F5F5F5;
-  height: 500px;
+  background-color: darkslategrey;
+  height: 550px;
   max-width: 800px;
   border-radius: 5px;
   padding: 2%;
@@ -61,5 +61,26 @@ button:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 .highscore-indicator{
-  color:brown;
+  color:white
+}
+.title{
+  color: goldenrod;
+  /* font-family: 'Spectral', serif; */
+  font-family: 'Uncial Antiqua', cursive;
+  
+}
+.instructions{
+  width: 330px;
+  max-width: 400px;
+  font-size: larger;
+  color: wheat;
+  font-family: 'Karla', sans-serif;
+  /* font-family: 'Uncial Antiqua', cursive; */
+}
+.timer{
+background-color:#5035FF;
+padding: 2% 3%;
+color: white;
+border: none;
+border-radius: 5px;
 }
